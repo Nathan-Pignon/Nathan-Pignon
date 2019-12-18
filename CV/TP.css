@@ -1,0 +1,160 @@
+body {
+	background-image: url(fond2.jpg);
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.header{
+	    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+	background-color: #000000;
+	text-decoration-color: white;
+	text-align: center;
+}
+
+.prenom{
+	text-align: center;
+font-weight: bold;
+font-family: 'Snell Roundhand', cursive;
+font-style: italic;
+}
+
+#navigation{
+  margin: 0;
+  padding: 0 ;
+  list-style: none ;
+}
+
+#navigation li {
+  display: inline-block;
+  width: 200px ;
+  border: 1px solid #600 ;
+  color: #fff ;
+  background: #c00 ;
+}
+
+#navigation li a {
+  display: block ;
+  background: #c00 ;
+  color: #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  padding: 8px 0 ;
+  text-align: center ;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	margin-top: 6%;
+}
+
+.footer{
+position: flex;
+background-color: #929292;
+bottom: 0;
+}
+
+.citation{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;	
+font-size: 30px;
+font-weight: bold;
+margin-top: 80px;
+}
+
+.img{
+margin: auto;
+align-content: center;
+width: 25%;
+}
+
+#foto{
+	width: 100%;
+}
+.tab{
+	margin: auto;
+float: end;
+margin-top: 90px;
+margin-bottom: 30px;
+width: 80%;
+color: #FFFFFF;
+background-image: url(black.jpg);
+}
+
+#tablo{
+	width: 100%;
+}
+
+.xp{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;
+font-size: 30px;
+padding: 20px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.competence{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;
+font-size: 30px;
+padding: 20px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.formation{
+	text-decoration: underline;
+text-align: center;
+font-family: 'El Messiri', sans-serif;
+font-size: 30px;
+padding: 20px;
+font-weight: bold;
+
+}
+
+.txtxp{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;	
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.txtcompetence{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;	
+font-size: 20px;
+font-weight: bold;
+}
+
+.txtformation{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;	
+	font-size: 20px;
+	font-weight: bold;
+}
+.service{
+font-family: 'El Messiri', sans-serif;
+margin-bottom: 2px;
+}
+
+a:hover{
+	font-size: 30px;
+}
+
+a{
+    text-decoration:none;
+    color: #070D19;
+}
+em {
+    font-style: italic;
+}
+
+
+
+
