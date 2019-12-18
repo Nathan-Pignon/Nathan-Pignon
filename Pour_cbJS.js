@@ -1,10 +1,14 @@
+
 function nb_aleatoire(min, max)
 {
      var nb = min + (max-min+1)*Math.random();
      return Math.floor(nb);
 }
 
-function jeu() {
+
+
+ if (window.onload = ok) {
+ 	function jeu() {
 
 var saisie = prompt("Pour combien");
 var nbr = Number(prompt(`Pour combien ${saisie} ?`));
@@ -23,3 +27,4 @@ while (recommencer == true) {
 	jeu();
 	recommencer = confirm("Voulez-vous rejouer ?");
 }
+ }

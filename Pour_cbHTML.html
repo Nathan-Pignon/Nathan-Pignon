@@ -3,7 +3,7 @@
 <head>
 	<title>Pour combien ?</title>
 	<link rel="stylesheet" type="text/css" href="Pour_cbCSS.css">
-	<link rel="stylesheet" type="text/javascript" href="Pour_cbJS.js">
+	<script src="Pour_cbJS.js" type="text/javascript"></script>
 </head>
 <body>
 	<header class="header">
@@ -23,9 +23,7 @@
 			Le But du jeu est simple, vous devez choisir un défi que l'un de vos amis devra réaliser s'il perd. Suivant la dificultée du défi, votre amis devra donner un nombre et en choisir un autre dans l'intervalle de 1 et le nombre donner juste avant (ex: Pour combien je te met une claque? --> 10 --> choisi un nombre entre 1 et 10). <br>
 			Si le nombre que la machine à sorti est le même que celui choisi par ton ami, il devra réaliser le défi, sinon il ne fera rien.			
 		</p>
-		<input class="boutton"
-       type="button"
-       value="Jouez !">
+		<button id="boutton" onClick="ok">Jouez !</button>
 		
 	</main>
 
