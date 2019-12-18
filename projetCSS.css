@@ -1,0 +1,169 @@
+body {
+	background-image: url(N3.jpg);
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.header{
+	    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+	background-color: #000000;
+	text-decoration-color: white;
+	text-align: center;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	background-color: #F2F2F2;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+
+.footer{
+position: flex;
+bottom: 0;
+}
+.prenom{
+	text-align: center;
+font-weight: bold;
+font-family: 'Snell Roundhand', cursive;
+font-style: italic;
+}
+
+.presentation{
+	margin: 50px;
+	margin-top: 175px;
+	background-color: #282828;
+}
+
+.citation{
+	text-align: center;
+	color: #FFFFFF;
+font-family: 'El Messiri', sans-serif;	
+font-size: 30px;
+font-weight: bold;
+margin: auto;
+}
+
+.img{
+margin: auto;
+margin-bottom: 50px;
+align-content: center;
+width: 10%;
+}
+
+#foto{
+	width: 100%;
+}
+.tab{
+float: end;
+margin: auto;
+margin-bottom: 150px;
+width: 80%;
+color: #000000;
+}
+
+#tablo{
+	width: 100%;
+}
+
+.xp{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;
+font-size: 30px;
+padding: 20px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.competence{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;
+font-size: 30px;
+padding: 20px;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.formation{
+	text-decoration: underline;
+text-align: center;
+font-family: 'El Messiri', sans-serif;
+font-size: 30px;
+padding: 20px;
+font-weight: bold;
+
+}
+
+.txtxp{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;	
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.txtcompetence{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;	
+font-size: 20px;
+font-weight: bold;
+}
+
+.txtformation{
+	text-align: center;
+font-family: 'El Messiri', sans-serif;	
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#navigation{
+  margin: 0;
+  padding: 0 ;
+  list-style: none ;
+}
+
+#navigation li {
+  display: inline-block;
+  width: 200px ;
+  border: 1px solid #600 ;
+  color: #fff ;
+  background: #c00 ;
+}
+
+#navigation li a {
+  display: block ;
+  background: #c00 ;
+  color: #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  padding: 8px 0 ;
+  text-align: center ;
+}
+
+a:hover{
+	font-size: 30px;
+}
+
+#service a{
+	color: #FFFFFF;
+	font-family: 'El Messiri', sans-serif;
+	margin-bottom: 2px;
+    text-decoration:none;
+}
+em {
+    font-style: italic;
+}
+
+
+
+
