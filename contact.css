@@ -28,6 +28,11 @@ body {
 	background-image: url(gris2.jpg);
 }
 
+.footer{
+position: flex;
+bottom: 0;
+}
+
 .prenom{
 	transform: translateX(-5vw);
 	text-align: center;
@@ -86,6 +91,18 @@ font-style: italic;
 
 #bouton{
 	color: #E5E5E5;
+}
+
+#service a{
+	color: #FFFFFF;
+	font-family: 'El Messiri', sans-serif;
+	margin-bottom: 2px;
+    text-decoration:none;
+    margin-left: 15px;
+}
+
+a:hover{
+	font-size: 30px;
 }
 
 label {

@@ -22,6 +22,21 @@ body {
 	text-align: center;
 }
 
+.main{
+	display: flex;
+	flex-direction: column;
+	background-image: url(gris2.jpg);
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
+
+.footer{
+position: flex;
+bottom: 0;
+}
+
 .prenom{
 	transform: translateX(-5vw);
 	text-align: center;
@@ -53,16 +68,6 @@ font-style: italic;
   padding: 8px 0 ;
   text-align: center ;
   text-decoration: none;
-}
-
-.main{
-	display: flex;
-	flex-direction: column;
-	background-image: url(gris2.jpg);
-	margin-right: 30px;
-	margin-left: 30px;
-	margin-top: 150px;
-	margin-bottom: 30px;
 }
 
 #boutton{
@@ -100,4 +105,16 @@ font-size: 25px;
 .video{
 	float: end;
 	margin: auto;
+}
+
+#service a{
+	color: #FFFFFF;
+	font-family: 'El Messiri', sans-serif;
+	margin-bottom: 2px;
+    text-decoration:none;
+    margin-left: 15px;
+}
+
+a:hover{
+	font-size: 30px;
 }
