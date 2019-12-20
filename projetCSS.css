@@ -6,6 +6,11 @@ body {
 	margin-top: 0;
 }
 
+@media (min-width: 1296px)
+{
+#navigation{transform: translateX(-5vw);}
+}
+
 .header{
 	    position: fixed;
     left: 0;
@@ -20,7 +25,7 @@ body {
 .main{
 	display: flex;
 	flex-direction: column;
-	background-image: url(gris.jpg);
+	background-image: url(gris2.jpg);
 	margin-right: 30px;
 	margin-left: 30px;
 	margin-top: 35px;
@@ -32,6 +37,7 @@ position: flex;
 bottom: 0;
 }
 .prenom{
+	transform: translateX(-5vw);
 	text-align: center;
 font-weight: bold;
 font-family: 'Snell Roundhand', cursive;
@@ -62,6 +68,7 @@ width: 10%;
 
 #foto{
 	width: 100%;
+	border-radius: 50%;
 }
 .tab{
 float: end;
@@ -151,6 +158,14 @@ font-family: 'El Messiri', sans-serif;
   text-decoration: none;
 }
 
+#logo { 
+	float: left;
+	margin-top: 10px;
+	margin-left: 45px;
+	border-radius: 50%;
+	width: 6%;
+}
+
 a:hover{
 	font-size: 30px;
 }
@@ -160,6 +175,7 @@ a:hover{
 	font-family: 'El Messiri', sans-serif;
 	margin-bottom: 2px;
     text-decoration:none;
+    margin-left: 15px;
 }
 em {
     font-style: italic;

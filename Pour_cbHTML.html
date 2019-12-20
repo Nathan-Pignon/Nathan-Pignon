@@ -7,24 +7,26 @@
 </head>
 <body>
 	<header class="header">
+		<img id="logo" src="CampusAcademy.jpg" alt="L'école" >
 		<h1 class="prenom">PIGNON Nathan</h1>
 		<div class="menu">
 		<ul id="navigation">
   			<li><a href="projetHTML.html" title="Aller à l'accueil">Accueil</a></li>
-  			<li><a href="Pour_cbHTML.html" title="Jouez !">Jouer au "Pour combien?"</a></li>
-  			<li><a href="#" title="Jouez !">Devine le nombre</a></li>
-  			<li><a href="#" title="aller à Projet 4">Projet 4</a></li>
-  			<li><a href="#" title="aller à Projet 5">Projet 5</a></li>
+  			<li><a href="Pour_cbHTML.html" title="Jouez !">Jeux en Javascript</a></li>
+  			<li><a href="contact.html" title="Me contacter">Contact</a></li>
 		</ul>
 		</div>
 	</header>
 	<main class="main">
-		<p class="txt">
-			Le But du jeu est simple, vous devez choisir un défi que l'un de vos amis devra réaliser s'il perd. Suivant la dificultée du défi, votre amis devra donner un nombre et en choisir un autre dans l'intervalle de 1 et le nombre donner juste avant (ex: Pour combien je te met une claque? --> 10 --> choisi un nombre entre 1 et 10). <br>
-			Si le nombre que la machine à sorti est le même que celui choisi par ton ami, il devra réaliser le défi, sinon il ne fera rien.			
-		</p>
-		<button id="boutton" onClick="ok">Jouez !</button>
+		<p class="titreJeu">Trouves le bon nombre</p>
+		<p class="txt">Le but est simple ! <br>
+		 Comme le juste-prix, en fonction des plus et des moins que la machine t'indiques tu dois trouver le bon nombre en faisant le moins de coups possible.</p>
+		<button id="boutton" onClick="jeu3()">Jouer !</button>
 		
+		<p class="titreJeu">Pour Combien ?</p>
+		<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/lVaUVSW5Oy0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br> <br>
+		<button id="boutton" onClick="jeu()">Jouer !</button>	
 	</main>
 
 </body>

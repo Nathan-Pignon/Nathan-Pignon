@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+		<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+	<header class="header">
+		<img id="logo" src="CampusAcademy.jpg" alt="L'école" >
+		<h1 class="prenom">PIGNON Nathan</h1>
+		<div class="menu">
+		<ul id="navigation">
+  			<li><a href="projetHTML.html" title="Aller à l'accueil">Accueil</a></li>
+  			<li><a href="Pour_cbHTML.html" title="Jouez !">Jeux en Javascript</a></li>
+  			<li><a href="contact.html" title="Me contacter">Contact</a></li>
+		</ul>
+		</div>
+	</header>
+<main class="main">
+	<br>
+	<p class="txt">Me contacter</p> <br>
+	<form  class="formulaire" action="nathpignon@free.fr" method="post">
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="user_name">
+    </div>
+    <div>
+        <label for="prenom">Prenom :</label>
+        <input type="text" id="prenom" name="user_firstname">
+    </div>
+    <div>
+        <label for="mail">E-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+     <div class="button">
+        <button  id="bouton" type="submit">Envoyer le message</button>
+    </div>
+</form>
+</main>
+
+</body>
+</html>
