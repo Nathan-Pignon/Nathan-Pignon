@@ -1,16 +1,22 @@
-## Hi there 👋
+<h1 align="center">🚀 Développeur Full-Stack & Architecte Logiciel</h1>
+<p align="center">
+  <b>J'accompagne les entreprises dans la conception, développement et optimisation d'applications web et mobiles.</b>
+</p>
 
-<!--
-**Nathan-Pignon/Nathan-Pignon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 🛠️ Technologies & Compétences :
+- **Langages** : Java, TypeScript, JavaScript, SQL, Python  
+- **Frameworks** : Spring Boot, Angular, React, Vue, NodeJS  
+- **Base de données** : PostgreSQL, SQL  
+- **DevOps & CI/CD** : Docker, Ansible, Jenkins  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 📫 Me contacter :
+📩 **Email** : [nathan.pignon79@gmail.com](mailto:nathan.pignon79@gmail.com)  
+🔗 **LinkedIn** : [linkedin.com/in/nathan-pignon-b8b395199](https://www.linkedin.com/in/nathan-pignon-b8b395199/)  
+
+---
+
+✨ **Merci de visiter mon profil ! N’hésitez pas à me contacter pour des collaborations.** 🚀
