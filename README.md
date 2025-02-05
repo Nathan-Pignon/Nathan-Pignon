@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Développeur Full-Stack & Architecte Logiciel</h1>
+<h1 align="center">💻📱 Développeur Full-Stack & Architecte Logiciel</h1>
 <p align="center">
   <b>J'accompagne les entreprises dans la conception, développement et optimisation d'applications web et mobiles.</b>
 </p>
