@@ -30,6 +30,7 @@
 ### 📫 Me contacter :
 📩 **Email** : [nathan.pignon79@gmail.com](mailto:nathan.pignon79@gmail.com)  
 🔗 **LinkedIn** : [linkedin.com/in/nathan-pignon-b8b395199](https://www.linkedin.com/in/nathan-pignon-b8b395199/)  
+💻 **Site Portfolio** : [https://nathanpignon.fr/](https://nathanpignon.fr/)
 
 ---
 
